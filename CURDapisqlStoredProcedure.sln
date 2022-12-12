@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CURDapisqlStoredProcedure", "CURDapisqlStoredProcedure\CURDapisqlStoredProcedure.csproj", "{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{BA50EBE8-FB71-47EA-96A3-7391AAD129AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D087AE59-50FB-4CAF-A216-08F1ABAABFCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5E4CA0FD-AE71-4AB9-85DF-77D5B4EADDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datasql", "Datasql\Datasql.csproj", "{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40AAF359-1F22-4C69-9701-F7FC9DD5B2F4} = {BA50EBE8-FB71-47EA-96A3-7391AAD129AF}
+		{323C0C65-5C2F-4DAA-A09B-F606CD1F32BD} = {D087AE59-50FB-4CAF-A216-08F1ABAABFCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD2BA17E-F4BE-4B09-8EBB-00317D16379B}
+	EndGlobalSection
+EndGlobal
